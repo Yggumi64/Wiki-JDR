@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Fights Tracker</title>
+    <style>
+        body { font-family: sans-serif; background: #2c3e50; color: white; padding: 20px; }
+        
+        /* 1. AJOUT : Force le respect des largeurs de colonnes */
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-top: 20px; 
+            background: #34495e; 
+            table-layout: fixed; 
+        }
+
+        /* 2. CORRECTION : Tailles sans les points */
+        .col-init { width: 50px; }
+        .col-name { width: 150px; }
+        .col-hp { width: 100px; }
+        .col-action { width: 40px; }
+        /* Les colonnes Notes et Altérations se partageront le reste automatiquement */
+        
+        th, td { border: 1px solid #7f8c8d; padding: 8px; text-align: left; overflow: hidden; }
+        th { background: #1abc9c; cursor: pointer; font-size: 0.9em; }
+        
+        input { background: #ecf0f1; border: none; padding: 5px; width: 90%; border-radius: 3px; }
+        .btn { margin: 10px; padding: 10px; cursor: pointer; background: #e67e22; border: none; color: white; border-radius: 5px; }
+        .btn-add { background: #27ae60; }
+        
+        .allie { border-left: 5px solid #34db52; background: rgba(52, 219, 82, 0.05); }
+        .ennemie { border-left: 5px solid #db3452; background: rgba(219, 52, 82, 0.05); }
+        
+        /* Style pour les inputs dans le tableau */
+        td input { background: transparent; color: white; border-bottom: 1px solid #555; border-radius: 0; }
+        td input:focus { background: rgba(255,255,255,0.1); outline: none; }
+    </style>
+</head>
+<body>
+
+    <h2>Fights Tracker</h2>
+    
+    <div style="background: #16a085; padding: 15px; border-radius: 5px; display: flex; gap: 10px; align-items: center;">
+        <input type="text" id="name" placeholder="Nom" style="flex: 3;">
+        <input type="number" id="init" placeholder="Init" style="flex: 0.5;">
+        <input type="number" id="hp" placeholder="PV Max" style="flex: 0.5;">
+        <select id="faction" style="padding: 5px; background: #ecf0f1;">
+            <option value="none">Neutre</option>
+            <option value="allie">Allié</option>
+            <option value="ennemie">Ennemie</option>
+        </select>
+        <button class="btn btn-add" onclick="addChar()" style="margin:0">Ajouter</button>
+        <button class="btn" onclick="sortTable()" style="margin:0">Trier</button>
+    </div>
+
+    <table id="tracker">
+        <thead>
+            <tr>
+                <th class="col-init">Init</th>
+                <th class="col-name">Nom</th>
+                <th class="col-hp">PV</th>
+                <th>Notes / Compétences</th>
+                <th>Altérations</th>
+                <th class="col-action">X</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script>
+        function addChar() {
+            const name = document.getElementById("name").value || "Inconnu";
+            const init = document.getElementById("init").value || 0;
+            const hp = document.getElementById("hp").value || 0;
+            const faction = document.getElementById("faction").value;
+
+            const table = document.getElementById("tracker").getElementsByTagName('tbody')[0];
+            const row = table.insertRow();
+            
+            if(faction !== "none") row.classList.add(faction);
+
+            row.innerHTML = `
+                <td><input type="number" value="${init}"></td>
+                <td style="font-weight:bold">${name}</td>
+                <td><input type="number" value="${hp}" style="width: 40px; color: #2ecc71;"> / ${hp}</td>
+                <td><input type="text" placeholder="..."></td>
+                <td><input type="text" placeholder="..."></td>
+                <td style="text-align:center"><button onclick="this.parentElement.parentElement.remove()" style="background:none; border:none; color:#e74c3c; cursor:pointer; font-weight:bold">X</button></td>
+            `;
+
+            // Reset pour l'entrée suivante
+            document.getElementById("name").value = "";
+        }
+
+        function sortTable() {
+            const tbody = document.querySelector("#tracker tbody");
+            const rows = Array.from(tbody.rows);
+
+            rows.sort((a, b) => {
+                const valA = parseInt(a.cells[0].querySelector('input').value) || 0;
+                const valB = parseInt(b.cells[0].querySelector('input').value) || 0;
+                return valB - valA;
+            });
+
+            rows.forEach(row => tbody.appendChild(row));
+        }
+    </script>
+</body>
+</html>

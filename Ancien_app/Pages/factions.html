@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <nav class="faction-selector">
+            <button onclick="switchFaction('gardiens')">🛡️ Gardiens</button>
+            <button onclick="switchFaction('royaume')">☀️ Royaume</button>
+            <button onclick="switchFaction('navigateurs')">⚓ Navigateurs</button>
+            <button onclick="switchFaction('pacifistes')">🌿 Pacifistes</button>
+            <button onclick="switchFaction('cultistes')">🩸 Cultistes</button>
+        </nav>
+
+        <!-- Template dynamique -->
+        <div id="faction-page" class="page">
+            <h1 id="faction-title"></h1>
+            
+            <div class="faction-badge-container">
+                <span id="badge-color" class="faction-badge"></span>
+                <span id="badge-valeur" class="faction-badge"></span>
+            </div>
+
+            <!-- BLOC 1 : HISTOIRE & DÉTAILS -->
+            <details class="collapsible" open>
+                <summary>📜 Histoire & Présentation de la faction</summary>
+                <div id="faction-history-content" class="details-content"></div>
+            </details>
+
+            <!-- BLOC 2 : CLASSES (GÉNÉRÉES VIA CSV) -->
+            <details class="collapsible">
+                <summary>⚔️ Classes de la faction</summary>
+                <div id="faction-classes-content" class="details-content"></div>
+            </details>
+        </div>
+
+        <script src="../script.js"></script>
+    </body>
+    </html>
+

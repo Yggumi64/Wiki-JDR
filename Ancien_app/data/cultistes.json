@@ -1,0 +1,33 @@
+{
+  "title": "🌑 Les Cultistes",
+  "colorBadge": "🎨 Couleur : Violet Profond & Noir Sang",
+  "colorClass": "badge-cultistes-color",
+  "valeurBadge": "⚖️ Valeurs : Ambitieux, Pouvoir Démoniaque & Mystère",
+  "presentation": "Peu d'informations circulent sur les Cultistes. Bien que leur développement récent attire l'attention et les convoitises, c'est surtout la crainte qu'ils inspirent.",
+  "sections": [
+    {
+      "title": "Politique & Relations",
+      "type": "text",
+      "content": "<p>Du peu que l'on sache, les cultistes prêtent serment à des démons. Ces derniers sont peu nombreux et leur origine est inconnue. Malgré tout il semble qu'ils ne soient pas tous amicaux entre eux, bien qu'ils convoitent collectivement les terres des autres factions.</p><p>Ils inspirent la crainte chez les autres, à l'exception du Royaume avec qui ils partagent une idéologie proche.</p>"
+    },
+    {
+      "title": "Système économique",
+      "type": "text",
+      "content": "<p>Personne ne sait réellement comment les Cultistes prospèrent, certains racontent que leurs démons leur permettent d'ignorer la faim.</p>"
+    },
+    {
+      "title": "Géographie",
+      "type": "list",
+      "items": [
+        "<strong>Les plaines de sang (au Nord) :</strong> D'une couleur rougeâtre étonnante, elles ont longtemps été fuies car dites maudites. Aucune autre information n'est connue à leur sujet.",
+        "<strong>La Jungle (au Sud) :</strong> Elle est quasiment impraticable. Rares sont ceux qui osent s'y aventurer et personne ne sait d'où viennent les cultistes qui s'y abritent."
+      ]
+    },
+    {
+      "title": "Histoire",
+      "type": "text",
+      "content": "<p>Les Cultistes seraient issus d'exilés des différentes factions, la plupart descendant des explorateurs. D'autres disent qu'ils étaient là avant que le Conseil n'arrive, avant l'âge 0.</p>"
+    }
+  ],
+  "classTreeImage": "image_d14d18.png"
+}

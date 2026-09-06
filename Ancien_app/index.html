@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Wiki Univers JDR</title>
+</head>
+<body>
+
+    <!-- SIDEBAR NAVIGATION -->
+    <div id="sidebar">
+        <h2>Wiki JDR</h2>
+        
+        <ul>
+            <li><a href='accueil' id="nav-accueil" class="nav-link active-link">🏠 Accueil</a></li>
+        </ul>
+        
+        <h3>Factions</h3>
+        <ul>
+            <li><a href='gardiens' class="nav-link" id="nav-gardiens">🛡️ Les Gardiens</a></li>
+            <li><a href='royaume' class="nav-link" id="nav-royaume">☀️ Le Royaume</a></li>
+            <li><a href='navigateurs' class="nav-link" id="nav-navigateurs">⚓ Les Navigateurs</a></li>
+            <li><a href='pacifistes' class="nav-link" id="nav-pacifistes">🍃 Les Pacifistes</a></li>
+            <li><a href='cultistes' class="nav-link" id="nav-cultistes">🌑 Les Cultistes</a></li>
+        </ul>
+
+        <h3>Autres Catégories</h3>
+        <ul>
+            <li><a href='geographie-globale' class="nav-link" id="nav-geographie-globale">🗺️ Géographie globale</a></li>
+            <li><a href='histoire-globale' class="nav-link" id="nav-histoire-globale">📜 Histoire globale</a></li>
+            <li><a href='bestiaire' class="nav-link" id="nav-bestiaire">🐺 Bestiaire &amp; Démons</a></li>
+            <li><a href='magie' class="nav-link" id="nav-magie">🔮 Magie</a></li>
+        </ul>
+    </div>
+
+    <!-- MAIN CONTENT AREA -->
+    <div id="content">
+        
+        <!-- ================= ACCUEIL ================= -->
+        <div id="accueil" class="page active">
+            <h1>Bienvenue sur le Wiki de votre Univers</h1>
+            <div class="faction-section">
+                <h2>Navigation</h2>
+                <p>Utilisez le menu à gauche pour naviguer entre les différentes factions, découvrir leur histoire, leur politique, et visualiser leurs arbres de classes.</p>
+            </div>
+        </div>
+
+        <!-- ================= LES GARDIENS ================= -->
+        <div id="gardiens" class="page">
+            <h1>🛡️ Les Gardiens</h1>
+            
+            <div class="faction-badge-container">
+                <span class="faction-badge badge-gardiens-color">🎨 Couleur : Vert Mousse & Pierre</span>
+                <span class="faction-badge badge-gardiens-valeur">⚖️ Valeurs : Tradition, Sédentarité & Protection</span>
+            </div>
+
+            <!-- ENCADRÉ DÉROULANT : HISTOIRE ET INFORMATIONS -->
+            <details class="collapsible" open>
+                <summary>📜 Histoire & Présentation de la faction</summary>
+                <div class="details-content">
+                    <p>Les Gardiens sont effrayés par l’extérieur et se contentent de vivre avec ce qu'ils ont. Ils sont la définition même de sédentaire et sont très attachés aux traditions. Les Nobles président et les roturiers souffrent, même s'il n'est pas rare d'en voir quelques-uns s'élever par leurs prouesses au combat. Certaines rumeurs disent qu'une révolution se prépare.</p>
+                    
+                    <div class="faction-section">
+                        <h2>Politique</h2>
+                        <p>Il existe deux groupes détenant le pouvoir :</p>
+                        <ul>
+                            <li><strong>Le Conseil :</strong> Constitué de nobles dont les places se transmettent à leur descendance. Historiquement, ils dirigent la faction et ont les pleins pouvoirs.</li>
+                            <li><strong>Les Sentinelles :</strong> Élèves d'anciens héros de Guerre, ils ne font aucune distinction de classe et ont le soutien du peuple. Le Conseil ne peut les ignorer s'il veut maintenir l'ordre public.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="faction-section">
+                        <h2>Relations</h2>
+                        <ul>
+                            <li><strong>Cultistes :</strong> Ils en ont très peur.</li>
+                            <li><strong>Le Royaume :</strong> Dû à leur histoire commune, les relations sont très tendues. Une guerre pourrait éclater n'importe quand.</li>
+                            <li><strong>Navigateurs :</strong> En bons termes, tant que ceux-ci continuent de leur acheter leurs produits.</li>
+                            <li><strong>Pacifistes :</strong> Peu de liens, leurs idéologies étant assez opposées.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="faction-section">
+                        <h2>Système économique & Géographie</h2>
+                        <p>Ils ont énormément développé leur économie autour de la culture d'<strong>herbes médicinales</strong> et de l'expertise de leurs <strong>mages architectes</strong>.</p>
+                        <p>Le massif montagneux sur lequel ils sont établis possède de nombreuses grottes avec des lacs souterrains et des plantes grimpantes lumineuses, un milieu parfait pour cultiver. Le massif est difficilement accessible sans connaître les routes, cachant ainsi leurs villes et villages.</p>
+                    </div>
+
+                    <div class="faction-section">
+                        <h2>Arbre de classes</h2>
+                        <img src="image_d14d36.png" alt="Arbre de classes des Gardiens" class="class-tree-img">
+                    </div>
+                </div>
+            </details>
+
+            <!-- ENCADRÉ DÉROULANT : CLASSES DE LA FACTION -->
+            <details class="collapsible">
+                <summary>⚔️ Classes des Gardiens</summary>
+                <div class="details-content">
+                    <details class="class-item">
+                        <summary>Recrue (Tiers 1)</summary>
+                        <div class="class-desc">
+                            Les Recrues Gardiens entraîne leur défense et leur endurance en priorité. Elles doivent être capable de se déplacer facilement en montagne, certaines apprennent l’escalade, d’autres les cartes pour toujours connaître le chemin.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Archer (Tiers 2)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Archer</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Archers Gardiens utilisent les bases des recrues et se spécialisent dans l’apprentissage des cartes. Souvent éclaireurs, ils connaissent les stratégies utilisés par les Gardiens pour défendre leurs lieux clés.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Soldat (Tiers 2)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Soldat</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Soldats Gardiens sont leur unité principale. Ces anciennes recrues sont placées stratégiquement dans les grosses bases de la montagne. Ils apprennent à être très mobiles et sont de fabuleux grimpeurs. Cette formation paraît inutile à beaucoup, hérité de vieilles tradition et les excluant de contact avec le monde.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Mage (Tiers 2)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Mage</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Mages Gardiens sont des recrues ayant une forte affinité avec la magie. Ils sont spécialistes de la magie de Terre et connaissent des bases de la magie Blanche. Ils connaissent bien la géologie ce qui leur permet de jouer avec le terrain escarpé de la montagne.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Archer magique (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Archer -> Archer Magique</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Archers Magiques sont des Archers ayant décidé de privilégier leur mémoire à leur endurance. Ils connaissent une multitudes d’enchantement pour leurs flèches, certains pouvant rivaliser avec les Mages.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Arbalétier (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Archer -> Arbalétier</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Arbalétiers sont des Archers ayant privilégié leur endurance. Ils ne se déplace pas beaucoup et n’ont souvent que quelques positions clés dont ils connaissent les chemins les plus rapides par coeur. Ils transportent de lourdent arbalètes sur leur dos et entraînent leur force en plus de leur endurance.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Épéiste (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Soldat -> Epéiste</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Épéistes Gardiens sont des soldats ayant choisis la voie de l’épée. Ils apprennent plusieurs styles, avec plusieurs et sont encore considéré en formation tant qu’ils n’ont pas atteint le prochain rang. Ce sont pour la plus part des nobles.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Chevalier (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Soldat -> Chevalier</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Chevalier Gardiens sont des soldats ayant était adoubés par le conseil. Ils sont promis à pouvoir réaliser un serment et continuent de s’entraîner avec leurs armes de prédilection. Ce sont généralement des gens du peuples, pas assez noble pour être épéistes mais pas assez mauvais pour devenir Garde.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Garde (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Soldat -> Garde</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Gardes sont les soldats les moins talentueux. Bien que très utiles puisqu’ils empêchent les ennemis de pénétrer les forteresse, ils sont souvent dénigré par les épéistes. Ils utilisent souvent de grands boucliers et ont une très grande endurance.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Mage du Conseil (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Mage -> Mage du Conseil</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Mages du Conseils sont les Mages nobles ayant un lien de parenté avec l’un des membres du Conseil. Ils y ont été recommandés par l’un des Membres et sont voués à y siéger. En attendant, ils le défendent agissent de concert avec les Gardes du Conseil.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Archi-mage (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Mage -> Archi-Mage</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Archi-mages Gardiens sont les Mages ayant maîtrisés la magie de Terre. Ils sont de fin connaisseur de la montagne et des différents terrains. Fins stratèges, ils peuvent facilement piéger leurs adversaire. Mais ce qui fait leur grande force c’est leurs Sorts signatures qu’ils ont du créer eux mêmes.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Soigneur (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Mage -> Soigneur</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Soigneurs Gardiens sont des Mages ayant maîtrisés la magie Blanche. Ils peuvent faire appel à la nature pour protéger leurs alliés et agir comme soutien. Le secret de leur magie sont leur base en magie de l’eau, qui leur permet de bénir les plantes qu’ils font pousser.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Alchimiste (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Alchimiste</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Alchimistes Gardiens utilisent la montagnes et ces ressources et qui l’étudient. Ils agissent comme architectes et sont indispensables à la constructions des bâtiments car ils savent reconnaître les terrains susceptibles de se dégrader. Ils confectionnent des alliages qui permettent aux bâtiments de résister aux glissement de terrains et de puissant boucliers. Ils connaissent les bases de la magie de feu, ce qui fait d’eux de formidables forgerons.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Balistier (Tiers 4)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Archer -> Arbalétiste -> Balistier</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Balistiers sont des Arbalétiers devenus maîtres. Ils sont généralement affecter a une seul position clé. Certains cependant, ont suffisamment entraîné leur force pour pouvoir se déplacer avec leur Baliste.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Garde du Conseil (Tiers 4)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Soldat -> Garde -> Garde du Conseil</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Gardes du Conseils sont les Gardes ayant été reconnus par un membre du Conseil. Sous recommandation, ils peuvent y être promu et, à la manière d’un chevalier, font le serment de protéger le conseil.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Protecteur (Tiers 4)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Soldat -> Garde -> Protecteur</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Protecteurs sont Gardes ayant gagné une grande renommé. Ils commandent d’autres gardes et sont affecté à une forteresse. Ils ne sont pas très apprécié par la Noblesse.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Fidèle (Tiers 4)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Soldat -> Chevalier -> Fidèle</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Fidèles sont des Chevaliers ayant fait un serment de fidélité au Conseil. Ils sont reconnus comme maître mais moins respecté que les Sentinelles.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Sentinelle (Tiers 4)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Soldat -> Chevalier -> Sentinelle</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Sentinelles sont des Chevalier ayant était anoblie et ayant fait un Serment au pied de la montagne. Ils sont repéré, comme le veux la tradition, par les autres Sentinelles pour devenir leur disciple et se compte au nombre de 4. Elles sont la force la plus respecté par le peuple et la plus puissante après le Conseil.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Noble Épéiste (Tiers 4)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Soldat -> Epéiste -> Noble Epéiste</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Nobles Épéistes sont des épéistes ayant maîtrisé le style d’épée d’une famille noble. Ils sont généralement un descendant ou héritier et de futurs membres du Conseil.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Maître Épéiste (Tiers 4)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Soldat -> Epéiste -> Maitre Epéiste</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Maîtres Épéistes sont des épéistes ayant maîtrisé plusieurs technique d’épée. Ils sont eux mêmes séparé en deux catégories : les maîtres d’armes, qui maîtrises et portent plusieurs type d’épée et les théoriciens qui ne maîtrisent qu’une épée mais connaissent de nombreux styles différents et ont fini par créer le leur.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Épéiste Magique (Tiers 4)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Soldat -> Epéiste -> Epéiste Magique</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Épéistes Magique sont les épéistes ayant une grande affinité avec la magie. Ils ont dût suivre une formation de mage en plus de leur formation de soldat et peuvent enchanter leur lame, pour ajouter une touche personnelle à leur style.
+                        </div>
+                    </details>
+                </div>
+            </details>
+
+        </div>
+
+        <!-- ================= LE ROYAUME ================= -->
+        <div id="royaume" class="page">
+            <h1>☀️ Le Royaume</h1>
+
+            <div class="faction-badge-container">
+                <span class="faction-badge badge-royaume-color">🎨 Couleur : Or & Sanguine</span>
+                <span class="faction-badge badge-royaume-valeur">⚖️ Valeurs : Obéissance, Foi Solaire & Puissance</span>
+            </div>
+
+            <!-- ENCADRÉ DÉROULANT : HISTOIRE ET INFORMATIONS -->
+            <details class="collapsible" open>
+                <summary>📜 Histoire & Présentation de la faction</summary>
+                <div class="details-content">
+                    <p>Le Royaume est une faction historiquement belliqueuse, dirigée par le Roi, qui est immortel. Sa nation voit le Soleil comme une divinité et compte de nombreux prêtres et mages de feu.</p>
+                    
+                    <div class="faction-section">
+                        <h2>Politique</h2>
+                        <p>C'est une <strong>Monarchie Absolue</strong> dirigée par le Roi et ses <strong>Fidèles</strong> (des chevaliers lui ayant prêté serment). Le groupe ayant le plus de pouvoir en dessous du Roi est <strong>l'Église Flamboyante</strong> et son <strong>Ordre des Brûlés</strong>.</p>
+                    </div>
+                    
+                    <div class="faction-section">
+                        <h2>Relations & Économie</h2>
+                        <ul>
+                            <li>Mauvais termes avec à peu près tout le monde, à l'exception des <strong>Navigateurs</strong>. Ils s'entendent particulièrement mal avec les Gardiens.</li>
+                            <li>Des rumeurs d'une alliance avec les <strong>Cultistes</strong> se propagent.</li>
+                        </ul>
+                        <p>Le Royaume est très pauvre et les richesses y sont concentrées. Leur économie tourne autour des marchés d'esclaves et de l'envoi d'aide militaire (protection de convois).</p>
+                    </div>
+
+                    <div class="faction-section">
+                        <h2>Géographie</h2>
+                        <p>La population est abritée sous <strong>Le Dôme</strong>, un énorme désert entouré de montagnes. Une puissante magie agit comme une loupe au-dessus du désert, décuplant la force du Soleil et empêchant quiconque de sortir en plein jour au risque de brûler vivant.</p>
+                    </div>
+
+                    <div class="faction-section">
+                        <h2>Arbre de classes</h2>
+                        <img src="image_d14d54.png" alt="Arbre de classes du Royaume (Royalistes)" class="class-tree-img">
+                    </div>
+                </div>
+            </details>
+
+            <!-- ENCADRÉ DÉROULANT : CLASSES DE LA FACTION -->
+            <details class="collapsible">
+                <summary>⚔️ Classes du Royaume</summary>
+                <div class="details-content">
+                    <details class="class-item">
+                        <summary>Recrue (Tiers 1)</summary>
+                        <div class="class-desc">
+                            Les recrues du Royaumes apprennent la fidélité et le sacrifice. Elle doivent être prêtent à mourir pour leur mission. Sur leur corps se voie gravé un enchantement qui les immunise à la douleur.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Gredin (Tiers 2)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Gredin</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Gredins sont des recrues maîtresses de l’agilité, ils apprennent des compétences de camouflages et connaissent un grand panel de bombes, flèches, potions etc. Ils ont aussi des bases de magie de l’air.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Soldat (Tiers 2)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Soldat</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Soldats du royaume sont de fidèles recrues honorables au services du Roi. Ils ont pour missions de se dévouer corps et âme à ce dernier. Ils privilégient une formation par l‘expérience et sont envoyés sur le terrains très tôt.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Mage (Tiers 2)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Mage</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Mages du Royaumes sont des recrues plus fascinés par la foi envers le Soleil que la Magie. Elles maîtrisent évidemment des sorts de feu et connaissent les bases de la magie de Terre et de Vent. Elle ont une forte résistance à la magie qui leur permet de lancer des sorts dangereux sans se mettre en danger.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Assassin (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Gredin -> Assassin</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Assassins sont des Gredins spécialisés dans le camouflage et l’assassinat de cible unique. Ils utilisent une magie spéciale dérivée de la magie du vent appelé magie des « ombres ». Elle leur sert à booster leurs déplacement et les rends pratiquement invisibles.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Voleur (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Gredin -> Voleur</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Voleurs sont des Gredins spécialisés dans le camouflage et la récolte d’objet. Ils utilisent une magie spéciale dérivé de la magie du vent appelé magie des « ombres » pour les faire disparaître eux, ou leur cible.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Archer (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Gredin -> Archer</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Archers du Royaume sont des Gredins spécialisés dans l’utilisation d’objets à lancé, bombes, flèches, couteaux, potions. Ils utilisent de petits arcs. Ils utilisent la magie de vent pour contrôler leurs projectiles à distance.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Chevalier (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Soldat -> Chevalier</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Chevaliers du Royaume sont choisis personnellement par le Roi et se voient attribuer le statut de Noble. Ils excellent dans la maîtrise d’une arme et possèdent quelques connaissances dans la magie de feu.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Garde (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Soldat -> Garde</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Gardes du Royaume sont des Soldats ayant jurés de défendre le Royaume. Ils défendent les cités et se protègent du soleil grâce à la magie du feu. Il possèdent de grand bouclier qui leur sont hérités des Gardiens.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Mage de Guerre (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Mage -> Mage de Guerre</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Mages de Guerre sont des Soldats ayant choisi de se spécialiser dans la magie de feu et la magie de vent. Ils enchantent leurs armes ou leurs armures avec ces dernières et ce qui leur permet de porter des attaques puissantes et rapides.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Archi-mage (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Mage -> Archi-mage</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Archi-mages du Royaume sont des Mages ayant maîtrisés la magie de feu et de terre. Aussi appelés Maitres Forgeron, ils confectionnent de puissant équipements pour les personnalités importantes du Royaume.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Sorcier (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Mage -> Sorcier</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Sorciers du Royaume sont des Mages s’étant tourné vers la magie Noir. Ils vouent un culte au Roi et se servent de leur magie Feu pour purifier tout ce qui pourrait lui causer du tort. Ils sont directement à son service.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Alchimiste (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Mage -> Alchimiste</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Alchimistes du Royaume sont des Mages passionnés par l’art des Potions. Ils en confectionnent pour les Gredins. De plus, ils ont une grande mission, ils doivent fournir le Roi en élixir d’immortalité.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Herboriste (Tiers 4)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Gredin -> Archer -> Herboriste</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Herboristes du royaume sont des Archers spécialisés dans la confection de poisons. Ils se servent de leur magie de vent pour diriger les vapeurs toxiques ou leurs diverses projectiles et s’en protéger.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Garde Royal (Tiers 4)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Soldat -> Garde -> Garde Royal</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Gardes Royaux sont des Gardes ayant jurés de protéger le Roi. Ils maîtrisent une magie de feu et de vent appelé « Barrière » reposant sur des principes de magie de terre qui leur offre une défense mortelle.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Les Brûlés (Tiers 4)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Soldat -> Chevalier -> Brulé</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Brûlés sont des Maîtres Chevaliers ayant fait un serment devant le Soleil. Ils se sont embrasés, alliant ainsi parfaitement magie, foi et puissance.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Fidèle (Tiers 4)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Soldat -> Chevalier -> Fidèle</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Fidèles sont des Maîtres Chevaliers ayant fait un serment devant le Roi. Ils apprennent une magie de feu et de terre appelé « liaison » qui leur permet de se lier à une cible et de prendre les attaques à sa place.
+                        </div>
+                    </details>
+                </div>
+            </details>
+
+        </div>
+
+        <!-- ================= LES NAVIGATEURS ================= -->
+        <div id="navigateurs" class="page">
+            <h1>⚓ Les Navigateurs</h1>
+
+            <div class="faction-badge-container">
+                <span class="faction-badge badge-navigateurs-color">🎨 Couleur : Bleu Océan & Cuivre</span>
+                <span class="faction-badge badge-navigateurs-valeur">⚖️ Valeurs : Progrès, Commerce & Richesse</span>
+            </div>
+
+            <!-- ENCADRÉ DÉROULANT : HISTOIRE ET INFORMATIONS -->
+            <details class="collapsible" open>
+                <summary>📜 Histoire & Présentation de la faction</summary>
+                <div class="details-content">
+                    <p>Les Navigateurs sont un peuple de marchands. Leur plus grande foi réside dans l'argent, ainsi ce sont les plus riches qui président.</p>
+                    
+                    <div class="faction-section">
+                        <h2>Politique</h2>
+                        <p>Dirigés par la <strong>Chambre du Commerce</strong> (membres élus chaque année nécessitant un certain bénéfice et un Rang A). Trois grands groupes coexistent :</p>
+                        <ul>
+                            <li><strong>La Guilde :</strong> Rassemble les marchands et attribue les rangs.</li>
+                            <li><strong>Les Barons :</strong> Groupe des Archipels (marché noir toléré). Ils commercent avec le Royaume et les Cultistes.</li>
+                            <li><strong>Les Pirates :</strong> Groupe militaire contrôlant une partie du marais, en conflit direct avec les Cultistes du Sud. Ils régissent des bandits dans les plaines de cendres.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="faction-section">
+                        <h2>Relations & Économie</h2>
+                        <p>En bons termes avec les Gardiens et Pacifistes. Ennemis avec les Cultistes. Leur économie est basée sur le trafic de marchandises, les taxes, et le développement scientifique (ingénieurs réputés, charrettes améliorées, navires).</p>
+                    </div>
+
+                    <div class="faction-section">
+                        <h2>Arbre de classes</h2>
+                        <img src="image_d14d51.png" alt="Arbre de classes des Navigateurs" class="class-tree-img">
+                    </div>
+                </div>
+            </details>
+
+            <!-- ENCADRÉ DÉROULANT : CLASSES DE LA FACTION -->
+            <details class="collapsible">
+                <summary>⚔️ Classes des Navigateurs</summary>
+                <div class="details-content">
+                    <details class="class-item">
+                        <summary>Recrue (Tiers 1)</summary>
+                        <div class="class-desc">
+                            La priorité d’une recrue Navigateurs est d’apprendre à ne jamais tomber, soit en entraînant leurs jambes pour renforcer leurs appuis, soit en devenant suffisamment agile minimiser la chûte. Il apprennent aussi à utiliser toute sorte d’armes.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Matelot (Tiers 2)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Matelot</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Matelots sont les recrues qui ont pris la voie de la mer. Ils vont prioriser la nage et l’équilibre sur bateaux. De plus leurs entraînement aux armes se focalise sur les pistolet, les sabres, les couteaux et les petits engins d’ingénieurie.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Soldat (Tiers 2)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Soldat</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Recrues devenuent Soldats défendent les accès aux ports et aux Archipels par voie terrestre. Ils suivent une formation d’équitation ainsi que de conduite d’engins motorisés. Le point clé de leur apprentissage consiste à savoir frapper la où ça fait mal, et ce, en toute circonstance. C’est pourquoi des armes tel que les rapières, les lances ou les fusils de précisions sont souvant priorisées.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Mage (Tiers 2)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Mage</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Mages sont un cas à part. Avant de se spécialiser ils se concentrent sur la théorie. Ils apprennent les bases de la stratégie militaire, de l’ingénierie magique et de la magie curative. Ils ont célèbre pour leur affinité avec l’eau et l’air.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Plongeur (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Matelot -> Plongeur</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Plongeurs sont des Matelots ne voulant plus opérer sur un bateau. ils sont spécialistes des combats marins. Ils ont un mécanisme magique d’assistance respiratoire sous l’eau et des réacteurs dorsales. Ils ont une grande agilité et des connaissance de base en ingénierie magique. De plus les meilleurs connaissent des bases en termes de magie aquatiques leur permettant de mettre à profit certaines de leur compétences même en dehors de l’eau.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Pirate (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Matelot -> Pirate</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Pirates était les Matelots qui préfèrent rester au sec. Leur apprentissages spécifiques ce concentre sur les batailles navales, l’utilisation d’arme en pleines mer et de canons magiques.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Tireur (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Soldat -> Tireur</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Soldats s’étant spécialisés dans la défense à distance sont appelé Tireurs. Avec leur visions percentes ils peuvent abattre les ennemis avec un minimum de tir. On distincte deux type de tireurs, les agiles et les endurants. La première catégorie se focalise sur l’esquive et la contre-attaque, ou les attaques surprises et la secondes utilise généralement des boucliers lourd pour tirer tout en restant à couvert, au pris de leur mobilitée.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Cavalier (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Soldat -> Cavalier</i>
+                        </div>
+                        <div class="class-desc">
+                            Deux raisons poussent un soldat à devenir Cavalier, l’argent et la sensation de vitesse. Ils sont experts des véhicules motorisés magiques ainsi que des combats à bord de ces derniers. Ils sont souvent employés pour défendre des cargaison de marchandise nécessitant un transport.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Garde (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Soldat -> Garde</i>
+                        </div>
+                        <div class="class-desc">
+                            A l’image des tireurs enndurant, les Gardes Navigateurs utilises des armes de précisions ainsi qu’un bouclier afin d’empêcher quiconque de pénétrer leur défense mortelle.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Spécialiste (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Mage -> Spécialiste</i>
+                        </div>
+                        <div class="class-desc">
+                            Les meilleurs Mages de l’académie se vois offrir la possibilité d’une poursuite d’étude en devenant Spécialistes. Cette formation leur permet de devenir expert dans un domaine d’ingénieurie magique en vue de la fonction d’Ingénieur pour l’élite de l’élite.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Mage-Tempêtes (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Mage -> Mage-Tempête</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Mage-Tempêtes sont de puissant Mage ayant emprunté la voie de la guerre. A la fois excellent dans la magie de l’eau et de l’air combiné ainsi que dans la stratégie militaire, ils accompagnes souvent les équipages. Leurs sorts de grande envergure peuvent changer le cours des batailles.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Soigneur (Tiers 3)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Mage -> Soigneur</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Soigneurs sont les Mages s’étant tourné vers le fondement même de la magie de l’eau, l’aide d’autrui. Leur décrit assez bien leur fonction, les plus aguerris maîtrise même un semblant de magie de lumière et se font appeler Haut-Soigneurs.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Harponneur (Tiers 4)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Matelot -> Plongeur -> Harponneur</i>
+                        </div>
+                        <div class="class-desc">
+                            Les Harponneurs sont des plongeurs ayant obtenu une distinctions grâce à leurs actions. Ainsi ils prennent la tête d’une équipe de plongeurs et plannifient les batailles. Ils sont également capable de s’occupé de la maintenance de leur équipement seul, sans l’aide d’ingénieurs.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Capitaine (Tiers 4)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Matelot -> Pirate -> Capitaine</i>
+                        </div>
+                        <div class="class-desc">
+                            Lorsqu’un Pirate amasse assez de butin et qu’il peut acheter un bateau il est promu au rang de Capitaine. Ils ont alors le droit de diriger un équipage et leur Navire.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Ingénieur (Tiers 4)</summary>
+                        <div class="class-desc">
+                            <i>Recrue -> Mage -> Spécialiste -> Ingénieur</i>
+                        </div>
+                        <div class="class-desc">
+                            Les spécialiste confirmés sont appelé ingénieurs. Ce haut niveau d’étude de l’ingénieurie rapide leur vaut respect et admiration mais aussi responsabilité. Ils doivent s’occuper d'une part de la maintenance de la plus part des équipements magiques complexes et d’autre part de l’innovation.
+                        </div>
+                    </details>
+                </div>
+            </details>
+        </div>
+
+        <!-- ================= LES PACIFISTES ================= -->
+        <div id="pacifistes" class="page">
+            <h1>🍃 Les Pacifistes</h1>
+
+            <div class="faction-badge-container">
+                <span class="faction-badge badge-pacifistes-color">🎨 Couleur : Vert Émeraude & Écorce</span>
+                <span class="faction-badge badge-pacifistes-valeur">⚖️ Valeurs : Harmonie, Savoir & Préservation</span>
+            </div>
+
+            <!-- ENCADRÉ DÉROULANT : HISTOIRE ET INFORMATIONS -->
+            <details class="collapsible" open>
+                <summary>📜 Histoire & Présentation de la faction</summary>
+                <div class="details-content">
+                    <p>Les Pacifistes sont la faction la plus mystérieuse. Établis dans la Grande Forêt dont l'entrée n'est connue que d'eux, ils vivent en communauté.</p>
+                    
+                    <div class="faction-section">
+                        <h2>Politique & Relations</h2>
+                        <p>Pas de dirigeants stricts. Les figures d'autorité sont les <strong>Maîtres chasseurs</strong>, <strong>Anciens</strong>, <strong>Grands Chamans</strong> et surtout les <strong>Professeurs</strong>. Alliés aux Navigateurs, ils n'apprécient guère le Royaume et les Cultistes.</p>
+                    </div>
+                    
+                    <div class="faction-section">
+                        <h2>Économie & Géographie</h2>
+                        <p>Fonctionnent sur la base du <strong>troc</strong> et du bénévolat. Certains jeunes partent vendre leurs services, tandis que d'autres deviennent des <strong>Chasseurs de démons</strong> pour traquer les Cultistes.</p>
+                        <p>La <strong>Grande Forêt</strong> est un territoire très difficile, dense et "Vivante", forçant ses habitants à un apprentissage très poussé du terrain.</p>
+                    </div>
+
+                    <div class="faction-section">
+                        <h2>Arbre de classes</h2>
+                        <img src="image_d14d39.png" alt="Arbre de classes des Pacifistes" class="class-tree-img">
+                    </div>
+                </div>
+            </details>
+
+            <!-- ENCADRÉ DÉROULANT : CLASSES DE LA FACTION -->
+            <details class="collapsible">
+                <summary>⚔️ Classes des Pacifistes</summary>
+                <div class="details-content">
+                    <details class="class-item">
+                        <summary>Apprentis (Tiers 1)</summary>
+                        <div class="class-desc">
+                            Les Apprentis apprennent l’observation de l’environnement en priorité. Ils connaissent les mouvement des arbres et sont très agiles. Ils ont des connaissance de base sur les différentes zones de l’île et leurs spécificités.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Chasseur (Tiers 2)</summary>
+                        <div class="class-desc">
+                            Les Chasseurs sont des apprentis connaissant parfaitement la grande forêt. Ils peuvent y traquer des bête ou des Hommes. Ils savent manier l’arc et le couteau.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Explorateur (Tiers 2)</summary>
+                        <div class="class-desc">
+                            Les Explorateurs sont des apprentis suivant la vieille tradition de leur clan. Ils apprennent l’histoire et les régions dans l’espoir de partir à l’aventure. Ils connaissent très bien les différents territoires de l’île, et ont un bestiaire dont la quantité de remplissage détermine la renommée.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Mage (Tiers 2)</summary>
+                        <div class="class-desc">
+                            Les Mages pacifistes apprennent les 4 magies élémentaire par la pratique mais surtout par des concepts. Une fois ces derniers maîtrisé, ils les mettent à l’épreuve. Ils ne deviendront des mages confirmés qu’à la découverte des magies blanches ou noir par eux mêmes. Ils sont donc capable de manier tout type de magie.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Guerrier (Tiers 3)</summary>
+                        <div class="class-desc">
+                            Les Guerriers sont les explorateurs qui partent en quête de combat. Souvent appelés « Barbare » par les autres peuples, ils allient forte agilité avec une grande force et ont un panel de techniques aussi varié qu’imprévisible.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Aventurier (Tiers 3)</summary>
+                        <div class="class-desc">
+                            Les Aventuriers sont les explorateurs qui partent en quête d’aventure. Ils recherches certains monstres encore inconnus ou bien des grottes ou donjons inexplorés et tiennent continuent d’alimenter leur bestiaire.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Cueilleur (Tiers 3)</summary>
+                        <div class="class-desc">
+                            Les Cueilleurs sont des chasseurs qui préfèrent récolter les fruits de la forêt sans pour autant faire l’impasse sur leur formation de défense. La récolte de fruit est plus dangereuse car elle est souvent gardée par la forêt, cette dernière met en effet des monstres et des barrières a ceux qui les convoites.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Maître Chasseur (Tiers 3)</summary>
+                        <div class="class-desc">
+                            Les Maîtres Chasseurs des chasseurs expérimentés. Ils connaissent la forêt par coeur et peuvent y traquer n’importe quel être vivant. Ils enseignent souvent aux apprentis et aux chasseurs.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Druide (Tiers 3)</summary>
+                        <div class="class-desc">
+                            Les Druides sont des mages ayant tiré leur force de la magie blanche et de la magie de Terre. Ils ont une place spéciale parmi les pacifistes puisqu’ils ont un lien particulier avec la nature. À la différence des archi-mages Gardiens, ils ne font qu’un avec cette dernière et sont capables de faire appels aux esprits oubliés qui résident en elle.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Médecin (Tiers 3)</summary>
+                        <div class="class-desc">
+                            Les Médecins sont les mages qui ont maîtrisés les magies de soins et les bénédictions. Ils ont découvert la magie blanche et sont des maîtres de la magie de l’eau. Ils échangent souvent avec les soigneurs Navigateurs, qu’ils tiennent en haute estime.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Chercheur (Tiers 3)</summary>
+                        <div class="class-desc">
+                            Les Chercheurs sont des mages ayant découvert les magies Blanche et Noir et ayant maîtrisés chaque autres éléments. Ils ont un très haut niveau en magie théorique, si bien que aucun mage d’aucun clan ne peut les égaler. Cependant, ils se servent de leurs connaissances pour agrandir leur savoir et sont quasi-systématiquement l’origine des dernières avancés du monde magique.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Sorcier (Tiers 3)</summary>
+                        <div class="class-desc">
+                            Les Sorciers Pacifistes sont les mages qui ont maîtrisés la magie noir et sont conscient de ses dangers. Ils s’en servent pour étudier la magie démoniaque et travaille souvent avec les chasseurs de démon en tant que soutien.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Alchimiste (Tiers 3)</summary>
+                        <div class="class-desc">
+                            Les Alchimistes Pacifistes sont les mages s’étant tournés vers l’utilisation de la forêt grâce à leur magie. Ils ne s’entendes pas du tout avec les druides et ont des liens avec les Herboristes bien que ces derniers aient des réticences quant au partage de leurs recettes.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Herboriste (Tiers 4)</summary>
+                        <div class="class-desc">
+                            Les Herboristes Pacifistes sont les cueilleurs ayant atteint le niveau d’utiliser leurs récoltes pour en faire des remèdes ou des poudres. Ils ont grand savoir faire et de nombreuses recettes. Ils peuvent évidemment récolter leurs ingrédient eux même mais se plaisent à faire travailler les cueilleurs en échange de leurs produit.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Chasseur de Démons (Tiers 4)</summary>
+                        <div class="class-desc">
+                            Les Chasseurs de Démons sont des maîtres chasseurs se sentant à l’étroit dans la forêt. Ils sont contient de la menace que représente les démons et de leur lien historique avec leur descendant. Souvent par responsabilité, ils se font un devoir de les chasser.
+                        </div>
+                    </details>
+                </div>
+            </details>
+
+        </div>
+
+        <!-- ================= LES CULTISTES ================= -->
+        <div id="cultistes" class="page">
+            <h1>🌑 Les Cultistes</h1>
+
+            <div class="faction-badge-container">
+                <span class="faction-badge badge-cultistes-color">🎨 Couleur : Violet Profond & Noir Sang</span>
+                <span class="faction-badge badge-cultistes-valeur">⚖️ Valeurs : Ambitieux, Pouvoir Démoniaque & Mystère</span>
+            </div>
+
+            <!-- ENCADRÉ DÉROULANT : HISTOIRE ET INFORMATIONS -->
+            <details class="collapsible" open>
+                <summary>📜 Histoire & Présentation de la faction</summary>
+                <div class="details-content">
+                    <p>Peu d'informations circulent sur les Cultistes. Bien que leur développement récent attire l'attention et les convoitises, c'est surtout la crainte qu'ils inspirent.</p>
+                    
+                    <div class="faction-section">
+                        <h2>Politique & Relations</h2>
+                        <p>Du peu que l'on sache, les cultistes prêtent serment à des démons. Ces derniers sont peu nombreux et leur origine est inconnue. Malgré tout il semble qu'ils ne soient pas tous amicaux entre eux, bien qu'ils convoitent collectivement les terres des autres factions.</p>
+                        <p>Ils inspirent la crainte chez les autres, à l'exception du Royaume avec qui ils partagent une idéologie proche.</p>
+                    </div>
+                    
+                    <div class="faction-section">
+                        <h2>Système économique</h2>
+                        <p>Personne ne sait réellement comment les Cultistes prospèrent, certains racontent que leurs démons leur permettent d'ignorer la faim.</p>
+                    </div>
+                    
+                    <div class="faction-section">
+                        <h2>Géographie</h2>
+                        <p>Leur territoire est divisé en deux :</p>
+                        <ul>
+                            <li><strong>Les plaines de sang (au Nord) :</strong> D'une couleur rougeâtre étonnante, elles ont longtemps été fuies car dites maudites. Aucune autre information n'est connue à leur sujet.</li>
+                            <li><strong>La Jungle (au Sud) :</strong> Elle est quasiment impraticable. Rares sont ceux qui osent s'y aventurer et personne ne sait d'où viennent les cultistes qui s'y abritent.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="faction-section">
+                        <h2>Histoire</h2>
+                        <p>Les Cultistes seraient issus d'exilés des différentes factions, la plupart descendant des explorateurs. D'autres disent qu'ils étaient là avant que le Conseil n'arrive, avant l'âge 0.</p>
+                    </div>
+
+                    <div class="faction-section">
+                        <h2>Arbre de classes</h2>
+                        <img src="image_d14d18.png" alt="Arbre de classes des Cultistes et Démons" class="class-tree-img">
+                    </div>
+                </div>
+            </details>
+
+            <!-- ENCADRÉ DÉROULANT : CLASSES DE LA FACTION -->
+            <details class="collapsible">
+                <summary>⚔️ Classes des Cultistes</summary>
+                <div class="details-content">
+                    <details class="class-item">
+                        <summary>Cultiste (Tiers 1)</summary>
+                        <div class="class-desc">
+                            Les Cultistes apprennent la foi et les principes de la magie démoniaque en priorité. Soit ils renforcent leur force mentale soit ils renforcent leur résistance aux effets négatifs suivant leur environnement.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Agent (Tiers 2)</summary>
+                        <div class="class-desc">
+                            Les Agents sont des espions, Ils reprennent les classes des autres factions (sauf pacifistes) et ont une forte affinité avec la magie démoniaque. Ils sont incollable sur les situations géopolitique/économique des autres pays.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Hérétique (Tiers 2)</summary>
+                        <div class="class-desc">
+                            Les Hérétiques sont les Cultistes qui se sont baignés dans le sang de leurs ennemis. Ils ne désirs qu’une chose, la bataille. Ils ne ressente pas la douleur.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Mage (Tiers 2)</summary>
+                        <div class="class-desc">
+                            Les Mages Démons sont les Cultistes ayant une affinité pour les magies élémentaire. Ils se spécifient dans un élément et sont envoyés sur le champ de bataille pour faire régner la terreur. Certains travaillent de concert avec les Agents pour préparer une « Révolte ». Ils sont immunisés aux altérations qu’ils propagent.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Haut-Cultiste (Tiers 2)</summary>
+                        <div class="class-desc">
+                            Les Haut-Cultistes sont les Cultistes ayant tapé dans l’oeil d’un Archi-démon. Ils le vénèrent et apprennent de lui. Ils sont chargés de trouver d’autres Cultistes susceptibles de les rejoindre.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Navigateur / Royaume / Gardien (Tiers 3)</summary>
+                        <div class="class-desc">
+                            Les Agents commencent leur nouvelle formation en temps que recrue. Ils ont cependant le devoir de préparer une « Révolte » avec l’aide d’autres Cultistes.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Chevalier (Tiers 3)</summary>
+                        <div class="class-desc">
+                            Les Chevalier Démons sont les Hérétiques ayant accompli un exploit. Ils ont la possibilité de faire un serment auprès d’un Archi-démon.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Berserker (Tiers 3)</summary>
+                        <div class="class-desc">
+                            Les Berserker sont les Hérétiques s’étant baignés dans leur propre sang, ils utilisent la magie démoniaque pour se transformer eux même en arme. Leur force est proportionnel à leurs blessures.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Démon (Tiers 3)</summary>
+                        <div class="class-desc">
+                            Les Démons sont des Haut-Cultistes ayant réussi à s’élever. Ils sont toujours aux ordre d’un Archi-démon et complètent son armé comme unité de haut rang. Ils peuvent échapper à l’autorité des autres Archi-démons.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Prêtre (Tiers 3)</summary>
+                        <div class="class-desc">
+                            Les Prêtres Démons sont les mages démoniaques ayant maîtrisé la magie Blanche. Ils se dévouent à un archi-démon et prêchent sa parole aux autres cultistes. Les plus puissants sont appelés « prêtres de sang » et peuvent invoquer des démons inférieurs en sacrifiant une partie de leur chair. Ce sont eux qui provoquent l’ascension d’un Haut-Cultiste en Démon.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Sorcier (Tiers 3)</summary>
+                        <div class="class-desc">
+                            Les Sorciers Démons sont les mages démoniaques ayant maîtrisé la magie Noir. Ils forment les Hérétiques et les enchantent pour qu’ils ne ressentent plus la douleur. Des rumeurs disent qu’un Sorcier démoniaque est aux services du Roi, et que c’est lui qui enchante ses Recrues.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Alchimiste (Tiers 3)</summary>
+                        <div class="class-desc">
+                            Les Alchimistes Démon travaille de concert avec les Sorciers et les Prêtres pour préparer les rituels. Ils sont capables de créer des élixirs, très prîsés par les Berserker pour transformer l’hôte en démon artificiel temporairement.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Archi-démon (Tiers 4)</summary>
+                        <div class="class-desc">
+                            Les Archi-démons sont des démons ayant réussi a tuer leur maître. Ils prennent son rang et ses possessions et sans contestations. Ils sont les dirigents de cultes et ont une autorité suprême sur les autres Cultistes.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Chevalier Noir (Tiers 4)</summary>
+                        <div class="class-desc">
+                            Les Chevaliers Noirs sont les Chevaliers ayant fait un serment à un Archi-démon. Ils leurs empruntent une partie de leurs pouvoir en échange de leur loyauté.
+                        </div>
+                    </details>
+
+                    <details class="class-item">
+                        <summary>Martyr (Tiers 4)</summary>
+                        <div class="class-desc">
+                            Les Martyrs sont les chevaliers s’étant sacrifié au combat avant d’avoir pu porté un serment et qui ont, par ce sacrifice, accomplie un haut fait. Ils sont ramené à la vie par la mort elle même pour la servir.
+                        </div>
+                    </details>
+                </div>
+            </details>
+
+        </div>
+        
+        <!-- ================= CARTE ET AUTRES ================= -->
+        <div id="geographie-globale" class="page">
+            <h1>🗺️ Géographie globale</h1>
+            <div class="faction-section">
+                <h2>La Carte du Monde</h2>
+                    <img src="../Images/9e721155-64ba-4e5a-b25b-4cab1376cf61.png" alt="Carte globale" style="max-width: 100%; border-radius: 8px;">
+            </div>
+        </div>
+
+        <div id="histoire-globale" class="page">
+            <h1>📜 Histoire globale</h1>
+            <div class="faction-section">
+                <p>Page réservée pour la frise chronologique de votre univers (L'Âge 0, l'Âge 3, l'arrivée du Conseil, etc.).</p>
+            </div>
+        </div>
+
+        <div id="bestiaire" class="page">
+            <h1>🐺 Bestiaire & Démons</h1>
+            <div class="faction-section">
+                <p>Insérez ici la description des monstres, de la faune de la Grande Forêt ou des démons liés aux Cultistes.</p>
+            </div>
+        </div>
+
+        <div id="magie" class="page">
+            <h1>🔮 Système de Magie & Combinaisons</h1>
+
+            <details class="collapsible" open>
+                <summary>✨ Combinaisons Élémentaires (Sorts / Effets)</summary>
+                <div class="details-content">
+                    <div style="overflow-x: auto;">
+                        <table class="magic-table">
+                            <thead>
+                                <tr>
+                                    <th>Magie</th>
+                                    <th class="magic-feu">Feu</th>
+                                    <th class="magic-eau">Eau</th>
+                                    <th class="magic-terre">Terre</th>
+                                    <th class="magic-air">Air</th>
+                                    <th class="magic-blanc">Blanc</th>
+                                    <th class="magic-noir">Noir</th>
+                                    <th class="magic-demon">Démon</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th class="magic-feu">Feu</th>
+                                    <td>Feu Éternel</td>
+                                    <td>Sacrifice</td>
+                                    <td>Lave</td>
+                                    <td>Explosion</td>
+                                    <td>Feu Sacré</td>
+                                    <td>Purification</td>
+                                    <td>Feu Infernal</td>
+                                </tr>
+                                <tr>
+                                    <th class="magic-eau">Eau</th>
+                                    <td>Sacrifice</td>
+                                    <td>Soin</td>
+                                    <td>Glace</td>
+                                    <td>Brume</td>
+                                    <td>Bénédiction</td>
+                                    <td>Submersion</td>
+                                    <td>Poison</td>
+                                </tr>
+                                <tr>
+                                    <th class="magic-terre">Terre</th>
+                                    <td>Lave</td>
+                                    <td>Glace</td>
+                                    <td>Protection</td>
+                                    <td>Vent</td>
+                                    <td>Nature</td>
+                                    <td>Physique</td>
+                                    <td>Corruption</td>
+                                </tr>
+                                <tr>
+                                    <th class="magic-air">Air</th>
+                                    <td>Explosion</td>
+                                    <td>Brume</td>
+                                    <td>Vent</td>
+                                    <td>Tempête</td>
+                                    <td>Foudre</td>
+                                    <td>Attraction</td>
+                                    <td>Maladie</td>
+                                </tr>
+                                <tr>
+                                    <th class="magic-blanc">Blanc</th>
+                                    <td>Feu Sacré</td>
+                                    <td>Bénédiction</td>
+                                    <td>Nature</td>
+                                    <td>Foudre</td>
+                                    <td>Sacré</td>
+                                    <td>Paradoxe</td>
+                                    <td>Sang</td>
+                                </tr>
+                                <tr>
+                                    <th class="magic-noir">Noir</th>
+                                    <td>Purification</td>
+                                    <td>Submersion</td>
+                                    <td>Physique</td>
+                                    <td>Attraction</td>
+                                    <td>Paradoxe</td>
+                                    <td>Hérétique</td>
+                                    <td>Malédiction</td>
+                                </tr>
+                                <tr>
+                                    <th class="magic-demon">Démon</th>
+                                    <td>Feu Infernal</td>
+                                    <td>Poison</td>
+                                    <td>Corruption</td>
+                                    <td>Maladie</td>
+                                    <td>Sang</td>
+                                    <td>Malédiction</td>
+                                    <td>Abominable</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </details>
+
+            <details class="collapsible" open style="margin-top: 20px;">
+                <summary>🧙 Spécialisations des Mages (Titres / Mages)</summary>
+                <div class="details-content">
+                    <div style="overflow-x: auto;">
+                        <table class="magic-table">
+                            <thead>
+                                <tr>
+                                    <th>Magie</th>
+                                    <th class="magic-feu">Pyromancien</th>
+                                    <th class="magic-eau">Hydromancien</th>
+                                    <th class="magic-terre">Géomancien</th>
+                                    <th class="magic-air">Aeromancien</th>
+                                    <th class="magic-blanc">Luxomancien</th>
+                                    <th class="magic-noir">Fractomancien</th>
+                                    <th class="magic-demon">Daemancien</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th class="magic-feu">Pyromancien</th>
+                                    <td>Incendiaire</td>
+                                    <td>Salvateur</td>
+                                    <td>Forgeron</td>
+                                    <td>Déflagrateur</td>
+                                    <td>Prêtre</td>
+                                    <td>Purificateur</td>
+                                    <td>Pyrophage</td>
+                                </tr>
+                                <tr>
+                                    <th class="magic-eau">Hydromancien</th>
+                                    <td>Salvateur</td>
+                                    <td>Soigneur</td>
+                                    <td>Cryomancien</td>
+                                    <td>Souffleur</td>
+                                    <td>Bénisseur</td>
+                                    <td>Noyé</td>
+                                    <td>Empoisonneur</td>
+                                </tr>
+                                <tr>
+                                    <th class="magic-terre">Géomancien</th>
+                                    <td>Forgeron</td>
+                                    <td>Cryomancien</td>
+                                    <td>Protecteur</td>
+                                    <td>Bloqueur</td>
+                                    <td>Druide</td>
+                                    <td>Templier</td>
+                                    <td>Corrupteur</td>
+                                </tr>
+                                <tr>
+                                    <th class="magic-air">Aeromancien</th>
+                                    <td>Déflagrateur</td>
+                                    <td>Souffleur</td>
+                                    <td>Bloqueur</td>
+                                    <td>Mage Tempête</td>
+                                    <td>Electromancien</td>
+                                    <td>Magnétiseur</td>
+                                    <td>Pestelame</td>
+                                </tr>
+                                <tr>
+                                    <th class="magic-blanc">Luxomancien</th>
+                                    <td>Prêtre</td>
+                                    <td>Bénisseur</td>
+                                    <td>Druide</td>
+                                    <td>Electromancien</td>
+                                    <td>Clerc</td>
+                                    <td>Briseur</td>
+                                    <td>Clerc de Sang</td>
+                                </tr>
+                                <tr>
+                                    <th class="magic-noir">Fractomancien</th>
+                                    <td>Purificateur</td>
+                                    <td>Noyé</td>
+                                    <td>Templier</td>
+                                    <td>Magnétiseur</td>
+                                    <td>Briseur</td>
+                                    <td>Sorcier</td>
+                                    <td>Profanateur</td>
+                                </tr>
+                                <tr>
+                                    <th class="magic-demon">Daemancien</th>
+                                    <td>Pyrophage</td>
+                                    <td>Empoisonneur</td>
+                                    <td>Corrupteur</td>
+                                    <td>Pestelame</td>
+                                    <td>Clerc de Sang</td>
+                                    <td>Profanateur</td>
+                                    <td>Abomination</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </details>
+        </div>
+
+    </div>
+
+    <!-- SCRIPT POUR LA NAVIGATION -->
+    <script>
+        function showPage(pageId) {
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active');
+            });
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active-link');
+            });
+            const pageToShow = document.getElementById(pageId);
+            if(pageToShow) {
+                pageToShow.classList.add('active');
+            }
+            const activeLink = document.getElementById('nav-' + pageId);
+            if(activeLink) {
+                activeLink.classList.add('active-link');
+            }
+        }
+    </script>
+</body>
+</html>

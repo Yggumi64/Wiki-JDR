@@ -1,0 +1,24 @@
+{
+  "title": "⚓ Les Navigateurs",
+  "colorBadge": "🎨 Couleur : Bleu Océan & Cuivre",
+  "colorClass": "badge-navigateurs-color",
+  "valeurBadge": "⚖️ Valeurs : Progrès, Commerce & Richesse",
+  "presentation": "Les Navigateurs sont un peuple de marchands. Leur plus grande foi réside dans l'argent, ainsi ce sont les plus riches qui président.",
+  "sections": [
+    {
+      "title": "Politique",
+      "type": "list",
+      "items": [
+        "<strong>La Guilde :</strong> Rassemble les marchands et attribue les rangs.",
+        "<strong>Les Barons :</strong> Groupe des Archipels (marché noir toléré). Ils commercent avec le Royaume et les Cultistes.",
+        "<strong>Les Pirates :</strong> Groupe militaire contrôlant une partie du marais, en conflit direct avec les Cultistes du Sud. Ils régissent des bandits dans les plaines de cendres."
+      ]
+    },
+    {
+      "title": "Relations & Économie",
+      "type": "text",
+      "content": "<p>En bons termes avec les Gardiens et Pacifistes. Ennemis avec les Cultistes. Leur économie est basée sur le trafic de marchandises, les taxes, et le développement scientifique (ingénieurs réputés, charrettes améliorées, navires).</p>"
+    }
+  ],
+  "classTreeImage": "image_d14d51.png"
+}

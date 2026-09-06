@@ -1,0 +1,28 @@
+{
+  "title": "☀️ Le Royaume",
+  "colorBadge": "🎨 Couleur : Or & Sanguine",
+  "colorClass": "badge-royaume-color",
+  "valeurBadge": "⚖️ Valeurs : Obéissance, Foi Solaire & Puissance",
+  "presentation": "Le Royaume est une faction historiquement belliqueuse, dirigée par le Roi, qui est immortel. Sa nation voit le Soleil comme une divinité et compte de nombreux prêtres et mages de feu.",
+  "sections": [
+    {
+      "title": "Politique",
+      "type": "text",
+      "content": "<p>C'est une <strong>Monarchie Absolue</strong> dirigée par le Roi et ses <strong>Fidèles</strong> (des chevaliers lui ayant prêté serment). Le groupe ayant le plus de pouvoir en dessous du Roi est <strong>l'Église Flamboyante</strong> et son <strong>Ordre des Brûlés</strong>.</p>"
+    },
+    {
+      "title": "Relations & Économie",
+      "type": "list",
+      "items": [
+        "Mauvais termes avec à peu près tout le monde, à l'exception des <strong>Navigateurs</strong>. Ils s'entendent particulièrement mal avec les Gardiens.",
+        "Des rumeurs d'une alliance avec les <strong>Cultistes</strong> se propagent."
+      ]
+    },
+    {
+      "title": "Géographie",
+      "type": "text",
+      "content": "<p>La population est abritée sous <strong>Le Dôme</strong>, un énorme désert entouré de montagnes. Une puissante magie agit comme une loupe au-dessus du désert, décuplant la force du Soleil et empêchant quiconque de sortir en plein jour au risque de brûler vivant.</p>"
+    }
+  ],
+  "classTreeImage": "image_d14d54.png"
+}

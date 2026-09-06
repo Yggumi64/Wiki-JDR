@@ -1,0 +1,222 @@
+:root {
+    --primary-bg: #1a1a2e;
+    --sidebar-bg: #16213e;
+    --text-color: #333;
+    --light-text: #e94560;
+    --accent: #0f3460;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    background-color: #f4f4f9;
+    color: var(--text-color);
+}
+/* Sidebar styling */
+#sidebar {
+    width: 280px;
+    background-color: var(--sidebar-bg);
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+#sidebar h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--light-text);
+    text-align: center;
+}
+#sidebar h3 {
+    margin-top: 25px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: #8892b0;
+    border-bottom: 1px solid #8892b0;
+    padding-bottom: 5px;
+}
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#sidebar li {
+    margin: 8px 0;
+}
+#sidebar a {
+    color: #ccd6f6;
+    text-decoration: none;
+    display: block;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#sidebar a:hover, #sidebar a.active-link {
+    background-color: var(--accent);
+    color: white;
+}
+
+/* Main content styling */
+#content {
+    flex: 1;
+    padding: 40px;
+    overflow-y: auto;
+}
+.page {
+    max-width: 900px;
+    margin: 0 auto;
+    display: block;
+    animation: fadeIn 0.3s ease-in;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+h1 {
+    color: var(--sidebar-bg);
+    border-bottom: 3px solid var(--light-text);
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.faction-section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    border-left: 4px solid var(--light-text);
+}
+.faction-section h2 {
+    color: var(--accent);
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+ul { line-height: 1.6; }
+p { line-height: 1.6; }
+.class-tree-img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Summary Badges & Collapsible Styling */
+.faction-badge-container {
+    display: flex;
+    gap: 15px;
+    margin: 15px 0 25px 0;
+    flex-wrap: wrap;
+}
+.faction-badge {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.95em;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+details.collapsible {
+    background: #ffffff;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+    overflow: hidden;
+}
+details.collapsible summary {
+    padding: 12px 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    color: var(--sidebar-bg);
+    user-select: none;
+    transition: background 0.2s;
+    outline: none;
+}
+details.collapsible summary:hover {
+    background-color: #eef2f5;
+}
+details.collapsible .details-content {
+    padding: 15px 20px;
+    border-top: 1px solid #e1e4e8;
+}
+
+/* Class Collapsible Nested Details */
+details.class-item {
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background: #fafafa;
+}
+details.class-item summary {
+    padding: 8px 14px;
+    font-weight: 600;
+    color: var(--accent);
+    background: #ffffff;
+    cursor: pointer;
+}
+details.class-item summary:hover {
+    background: #f1f3f5;
+}
+details.class-item .class-desc {
+    padding: 10px 14px;
+    font-size: 0.95em;
+    color: #495057;
+    border-top: 1px solid #e9ecef;
+}
+
+/* Color Themes for Factions */
+/* Gardiens: Bleu Émeraude / Sédentaire */
+.badge-gardiens-color { background-color: #2b580c; }
+.badge-gardiens-valeur { background-color: #4a7c59; }
+
+/* Royaume: Or / Feu / Soleil */
+.badge-royaume-color { background-color: #d97706; }
+.badge-royaume-valeur { background-color: #b45309; }
+
+/* Navigateurs: Bleu Marine / Commerce */
+.badge-navigateurs-color { background-color: #0284c7; }
+.badge-navigateurs-valeur { background-color: #0369a1; }
+
+/* Pacifistes: Vert Nature / Troc & Harmonie */
+.badge-pacifistes-color { background-color: #15803d; }
+.badge-pacifistes-valeur { background-color: #166534; }
+
+/* Cultistes: Sombre / Violet d'Ombre */
+.badge-cultistes-color { background-color: #581c87; }
+.badge-cultistes-valeur { background-color: #3b0764; }
+
+.magic-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.magic-table th, .magic-table td {
+    border: 1px solid #cbd5e1;
+    padding: 8px 6px;
+}
+
+.magic-table tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+/* Couleurs spécifiques des éléments */
+.magic-feu { background-color: #f87171 !important; color: white; }
+.magic-eau { background-color: #60a5fa !important; color: white; }
+.magic-terre { background-color: #854d0e !important; color: white; }
+.magic-air { background-color: #84cc16 !important; color: white; }
+.magic-blanc { background-color: #f1f5f9 !important; color: #0f172a; }
+.magic-noir { background-color: #1e293b !important; color: white; }
+.magic-demon { background-color: #86198f !important; color: white; }

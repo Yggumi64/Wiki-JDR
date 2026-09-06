@@ -1,0 +1,33 @@
+{
+  "title": "🛡️ Les Gardiens",
+  "colorBadge": "🎨 Couleur : Vert Mousse & Pierre",
+  "colorClass": "badge-gardiens-color",
+  "valeurBadge": "⚖️ Valeurs : Tradition, Sédentarité & Protection",
+  "presentation": "Les Gardiens sont effrayés par l’extérieur et se contentent de vivre avec ce qu'ils ont. Ils sont la définition même de sédentaire et sont très attachés aux traditions. Les Nobles président et les roturiers souffrent, même s'il n'est pas rare d'en voir quelques-uns s'élever par leurs prouesses au combat. Certaines rumeurs disent qu'une révolution se prépare.",
+  "sections": [
+    {
+      "title": "Politique",
+      "type": "list",
+      "items": [
+        "<strong>Le Conseil :</strong> Constitué de nobles dont les places se transmettent à leur descendance. Historiquement, ils dirigent la faction et ont les pleins pouvoirs.",
+        "<strong>Les Sentinelles :</strong> Élèves d'anciens héros de Guerre, ils ne font aucune distinction de classe et ont le soutien du peuple. Le Conseil ne peut les ignorer s'il veut maintenir l'ordre public."
+      ]
+    },
+    {
+      "title": "Relations",
+      "type": "list",
+      "items": [
+        "<strong>Cultistes :</strong> Ils en ont très peur.",
+        "<strong>Le Royaume :</strong> Dû à leur histoire commune, les relations sont très tendues. Une guerre pourrait éclater n'importe quand.",
+        "<strong>Navigateurs :</strong> En bons termes, tant que ceux-ci continuent de leur acheter leurs produits.",
+        "<strong>Pacifistes :</strong> Peu de liens, leurs idéologies étant assez opposées."
+      ]
+    },
+    {
+      "title": "Système économique & Géographie",
+      "type": "text",
+      "content": "<p>Ils ont énormément développé leur économie autour de la culture d'<strong>herbes médicinales</strong> et de l'expertise de leurs <strong>mages architectes</strong>.</p><p>Le massif montagneux sur lequel ils sont établis possède de nombreuses grottes avec des lacs souterrains et des plantes grimpantes lumineuses, un milieu parfait pour cultiver. Le massif est difficilement accessible sans connaître les routes, cachant ainsi leurs villes et villages.</p>"
+    }
+  ],
+  "classTreeImage": "image_d14d36.png"
+}

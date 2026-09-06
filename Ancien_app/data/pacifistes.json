@@ -1,0 +1,20 @@
+{
+  "title": "🍃 Les Pacifistes",
+  "colorBadge": "🎨 Couleur : Vert Émeraude & Écorce",
+  "colorClass": "badge-pacifistes-color",
+  "valeurBadge": "⚖️ Valeurs : Harmonie, Savoir & Préservation",
+  "presentation": "Les Pacifistes sont la faction la plus mystérieuse. Établis dans la Grande Forêt dont l'entrée n'est connue que d'eux, ils vivent en communauté.",
+  "sections": [
+    {
+      "title": "Politique & Relations",
+      "type": "text",
+      "content": "<p>Pas de dirigeants stricts. Les figures d'autorité sont les <strong>Maîtres chasseurs</strong>, <strong>Anciens</strong>, <strong>Grands Chamans</strong> et surtout les <strong>Professeurs</strong>. Alliés aux Navigateurs, ils n'apprécient guère le Royaume et les Cultistes.</p>"
+    },
+    {
+      "title": "Économie & Géographie",
+      "type": "text",
+      "content": "<p>Fonctionnent sur la base du <strong>troc</strong> et du bénévolat. Certains jeunes partent vendre leurs services, tandis que d'autres deviennent des <strong>Chasseurs de démons</strong> pour traquer les Cultistes.</p><p>La <strong>Grande Forêt</strong> est un territoire très difficile, dense et \"Vivante\", forçant ses habitants à un apprentissage très poussé du terrain.</p>"
+    }
+  ],
+  "classTreeImage": "image_d14d39.png"
+}
