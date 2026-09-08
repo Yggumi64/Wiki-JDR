@@ -1,7 +1,7 @@
 import PocketBase from 'pocketbase';
 import type { Character, Faction, Skill } from '$lib/types';
 
-export const pb = new PocketBase('http://127.0.0.1:8090');
+export const pb = new PocketBase('http://wiki-svelte.fly.dev');
 
 // --- GETTERS ---
 
