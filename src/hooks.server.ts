@@ -1,13 +1,14 @@
 import type { Handle } from '@sveltejs/kit';
 import PocketBase from 'pocketbase';
-import { PUBLIC_PB_URL } from '$env/static/public';
+import { env } from '$env/dynamic/public';
 
 export const handle: Handle = async ({ event, resolve }) => {
-    // 1. On pointe vers Fly.io (via la variable d'env, ou fallback direct)
-    const pbUrl = PUBLIC_PB_URL || 'https://wiki-svelte.fly.dev';
+    // Utilisation de la variable dynamique avec fallback explicite
+    const pbUrl = env.PUBLIC_PB_URL || 'https://wiki-svelte.fly.dev';
+    
     event.locals.pb = new PocketBase(pbUrl);
 
-    // Charge la session depuis les cookies
+    // Charge la session depuis le cookie
     event.locals.pb.authStore.loadFromCookie(event.request.headers.get('cookie') || '');
 
     try {
@@ -22,7 +23,7 @@ export const handle: Handle = async ({ event, resolve }) => {
 
     const response = await resolve(event);
 
-    // 2. On exporte le cookie sécurisé (https pour Vercel)
+    // Exporte le cookie sécurisé (compatible HTTPS / Vercel)
     response.headers.append(
         'set-cookie',
         event.locals.pb.authStore.exportToCookie({ 
