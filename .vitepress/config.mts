@@ -11,7 +11,8 @@ export default defineConfig({
       { text: 'Examples', link: '/markdown-examples' },
       { text: 'Magie', link: '/magie' },
       { text: 'Cartes', link: '/cartes' },
-      { text: 'Factions', link: '/factions/cultistes'}
+      { text: 'Factions', link: '/factions/cultistes'},
+      { text: 'Frise Chronologique', link: '/story-time-line'}
     ],
 
     sidebar: [
