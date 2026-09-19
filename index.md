@@ -3,23 +3,15 @@
 layout: home
 
 hero:
-  name: "Wiki_Vite"
-  text: "My JDR Wiki"
-  tagline: My great project tagline
+  name: "LORAT"
+  text: "Wiki complet"
+  tagline: Pour les joueurs et les MJ ;)
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Factions
+      link: /factions/gardiens
     - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: Campagne
+      link: /campagne/campagne.md
 ---
 

@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+// .vitepress/config.js
+
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -8,21 +10,12 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
       { text: 'Magie', link: '/magie' },
       { text: 'Cartes', link: '/cartes' },
-      { text: 'Factions', link: '/factions/cultistes'},
       { text: 'Frise Chronologique', link: '/story-time-line'}
     ],
 
     sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      },
       {
         text: 'Factions',
         items: [
@@ -33,6 +26,14 @@ export default defineConfig({
           { text: '🌑 Les Cultistes', link: '/factions/cultistes' }
         ]
       },
+      {
+        text: 'Campagne',
+        items: [
+          { text: 'Campagne', link: '/campagne/campagne' },
+          { text: 'Lieux importants', link: '/campagne/places_description' },
+          { text: 'Personnages', link: '/campagne/known_characters' }
+        ]
+      }
     ],
 
     socialLinks: [
