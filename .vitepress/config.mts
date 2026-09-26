@@ -31,7 +31,8 @@ export default defineConfig({
         items: [
           { text: 'Campagne', link: '/campagne/campagne' },
           { text: 'Lieux importants', link: '/campagne/places_description' },
-          { text: 'Personnages', link: '/campagne/known_characters' }
+          { text: 'Personnages', link: '/campagne/known_characters' },
+          { text: 'Glossaire (Gameplay)', link: '/campagne/glossaire_gameplay' }
         ]
       }
     ],
